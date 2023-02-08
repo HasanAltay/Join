@@ -1,25 +1,27 @@
-# JOIN Kanban Project Management Tool
+# JOIN
 
-JOIN Kanban is a simple, yet powerful project management tool designed to help teams collaborate and stay organized. Our mission is to make project management easy and effective for teams of all sizes. With our user-friendly and customizable platform, you can tailor it to fit your team's unique needs.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
-## Features
+## Development server
 
-- Create and edit notes, memos, emails, messages, shopping lists, and to-do lists
-- Simple and intuitive notepad-like interface
-- Customizable task boards
-- Collaboration tools for team members
-- Calendar view for easy task scheduling
-- Mobile access for on-the-go productivity
-- Integration with popular apps and services
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Getting Started
+## Code scaffolding
 
-To get started with JOIN Kanban, simply sign up for an account at joinkanban.com. Once you've logged in, you'll  be taken to your dashboard where you can create a new project and start adding tasks.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Support
+## Build
 
-If you have any questions or feedback about JOIN Kanban, please don't hesitate to reach out to our support team at altay.developer@posteo.de. We're available Monday through Friday, 9am to 5pm EST.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Disclaimer
+## Running unit tests
 
-JOIN Kanban is provided "as is" and without warranty of any kind, express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. In no event shall our company be liable for any damages whatsoever, including but not limited to direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the use or inability to use JOIN Kanban. User assumes all risks associated with the use of the platform.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

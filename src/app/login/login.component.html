@@ -1,0 +1,23 @@
+<form>
+  <div class="login_centerised">
+    <span class="font61-700">Log in</span>
+    <div class="login_blue_line"></div>
+  </div>
+  <div class="login_pos_rel">
+      <input placeholder="Email" id="email_login" type="email" class="login_input" name="email" required>
+      <img src="/assets/img/icons/mail.png" class="login_mail_png">
+      <input placeholder="Password" id="password_login" type="password" class="login_input" name="password" required>
+      <img src="/assets/img/icons/secure.png" class="login_secure_png">  
+  </div>
+  <div class="login_forgot">
+      <input type="checkbox" id="confirm"><label for="confirm">Remember me</label>
+      <a routerLink="/forgot" class="link_forgot">Forgot my Password</a>
+  </div>
+  <div class="login_btns_dflex">
+      <button type="submit" class="btn_dark" name="login">Log in</button>
+      <button class="btn_bright" [routerLink]="['/main']">Guest Log in</button>
+  </div>
+</form>
+
+
+
